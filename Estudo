@@ -1,5 +1,10 @@
-Mensagem de alerta:
-alert('Olá,Mundo!')
 
-Mudar cor do fundo:
+/*Mensagem de alerta:*/
+alert('Olá,Mundo!')
+window.alert('Minha primeira mensagem')
+window.confirm('Está gostando de JS')
+window.prompt('Qual é o seu nome?') /* Tem que escrever o nome */
+
+
+/*Mudar cor do fundo:*/
 document.body.style.background = 'black'
