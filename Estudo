@@ -1,0 +1,5 @@
+Mensagem de alerta:
+alert('Olá,Mundo!')
+
+Mudar cor do fundo:
+document.body.style.background = 'black'
