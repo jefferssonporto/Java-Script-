@@ -1,0 +1,42 @@
+Script padrão JS {
+    <!DOCTYPE html> 
+    <html lang="pt-br">
+    <head> 
+    <title> </title>
+    <meta charset="utf-8"/>
+    </head>
+    <body> 
+    <h1> TITULO PRINCIPAL</h1>
+    <h2> TITULO SECUNDÁRIO </h2>
+    <script> 
+ 
+    </script>
+    </body>
+    </html>
+}
+
+Mensagem de alerta: {
+    alert('Olá,Mundo!');
+    window.alert('Minha primeira mensagem');
+    window.confirm('Está gostando de JS');
+    window.prompt('Qual é o seu nome?'); /* Tem que escrever o nome */
+}
+
+Mudar cor do fundo:{
+    document.body.style.background = 'black'; 
+}
+
+Escrever no documento {
+    document.write("Olá,Mundo!");
+    document.write("Olá, hoje é dia " + Date()); - Com data e hora
+    document.getElementById("") - Chamar o documento pelo seu elemento ID
+
+}
+
+Evento ao passar o mouse por cima do objeto ON {
+    < onclick="nomedafunção()"/> = ao clicar no objeto dispara o evento.
+    < onmousemove="nomedafunção()"/>  = ao passar o mouse em cima do objeto dispara o evento.
+    <onmouseout="nomedafunção()"/> = evento de quando tirar o mouse de cima do objeto
+}
+
+
