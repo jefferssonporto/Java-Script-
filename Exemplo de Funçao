@@ -1,0 +1,56 @@
+/* Exemplo 1 de função em JS que ao passar o mouse a lampada ascende, ao tirar a lampada apaga e ao clicar a lampada quebra, 
+e se reconstrói ao tirar o mouse após o clique */
+
+Exemplo 1:
+<!DOCTYPE html>
+<html> 
+<head>
+    <title> Teste JavaScript </title>
+    <meta charset="UTF-8">
+    <script>
+        function mudaLampada (tipo) /* Parametro */ {
+            if (tipo ==1) {
+                arquivo = "_media/lampada-acesa.jpg"; /* IF SE o tipo for 1 aparece o arquivo 1 */
+            }
+            if (tipo==2) { arquivo = "_media/lampada-apagada.jpg";  /*IF SE o tipo for 2 aparece o arquivo 2 */
+            }
+            if (tipo==3) {  arquivo = "_media/lampada-quebrada.jpg";   /*IF SE o tipo for 3 aparece o arquivo 3 */
+            }
+                document.getElementById("luz").src = arquivo; /* Chamada da Variável*/ 
+                }
+    </script>
+</head> 
+    <body> 
+    <h1> Acende a Lampada</h1>
+        <img src="_media/lampada-apagada.jpg" id="luz" onmousemove="mudaLampada(1) /* passar o mouse */ " onmouseout="mudaLampada(2) /* tirar o mouse */ " onclick="mudaLampada(3) /*clicar com o mouse */"/>
+    </body>
+</html>
+
+
+/* Exemplo 2 de função em JS que ao passar o mouse a lampada ascende, ao tirar a lampada apaga e ao clicar a lampada quebra, 
+e se reconstrói somente atualizando a página */:
+
+<!DOCTYPE html>
+<html> 
+<head>
+    <title> Teste JavaScript </title>
+    <meta charset="UTF-8">
+    <script>
+        var quebrada = false; /*Variável global*/ 
+        function mudaLampada (tipo) /* Parametro */ {
+            if (!quebrada) {
+                document.getElementById("luz").src = "_media/"+ tipo + ".jpg"; /* Chamada da Variável*/ 
+                if (tipo=='lampada-quebrada') {
+                    quebrada = true;
+                }
+            }
+        }
+    </script>
+</head> 
+    <body> 
+    <h1> Acende a Lampada</h1>
+        <img src="_media/lampada-apagada.jpg" id="luz" onmousemove="mudaLampada('lampada-acesa')"  /*passar o mouse*/ onmouseout="mudaLampada('lampada-apagada')"/* tirar o mouse */ onclick="mudaLampada('lampada-quebrada')" /*clicar com o mouse *//>
+    </body>
+</html> 
+
+

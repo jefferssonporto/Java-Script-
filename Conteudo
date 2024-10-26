@@ -39,4 +39,7 @@ Evento ao passar o mouse por cima do objeto ON {
     <onmouseout="nomedafunção()"/> = evento de quando tirar o mouse de cima do objeto
 }
 
+Textos  {
+    !quebrada - o NÃO antes da palavra é uma exclamação !.
+}
 
