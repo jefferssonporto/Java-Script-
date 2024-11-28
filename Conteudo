@@ -36,6 +36,7 @@ Evento ao passar o mouse por cima do objeto ON {
     < onmousemove="nomedafunção()"/>  = ao passar o mouse em cima do objeto dispara o evento.
     <onmouseout="nomedafunção()"/> = evento de quando tirar o mouse de cima do objeto, dispara o evento
     <onmouseover = sempre que passar o mouse na função dispara o evento
+    < oniput="" - usada para disparar o evento de uma variavel.
 }
 
 Textos  {
