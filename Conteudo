@@ -54,3 +54,13 @@ Identificadores {
         Não podem ser palavras reservadas
         Letras Maiúsculas e Minúsculas fazem diferenças
 }
+
+Tipos de Dados {
+    number - Infinty e NaN
+    String
+    Boolean
+    null
+    undefined
+    object - Array
+    functio
+}
