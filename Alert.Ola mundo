@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+    <html lang="pt-br">
+    <head> 
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="le=edge">
+    <title> Meu Primeiro Programa </title>
+        <style> 
+            body {
+            background-color: rgb(105, 105, 173); /*cor da pagina inteira*/ 
+            color: white;  /*cor da letra */
+            font: normal 20pt Arial;
+            }
+            h1{
+            color: rgb(255,212,22); /*cor da letra h1 */
+            }
+        </style> 
+    </head>
+    <body> 
+    <h1> Olá, Mundo </h1>
+   <p> Já me livrei da Maldição </p>
+    <script> // Alertas que disparam automaticamente 
+    window.alert('Minha primeira Mensagem') //alerta que exibe uma mensagem
+    window.confirm('Está gostando de JS ?') // alerta que exibe uma mensagem
+    window.prompt('Qual é o seu nome ?') // alerta que faz uma pergunta com uma caixa de dialogo para resposta
+    </script>  
+  </body>
+    </html>

@@ -31,7 +31,6 @@ Escrever no documento {
     document.write("Olá,Mundo!");
     document.write("Olá, hoje é dia " + Date()); - Com data e hora
     document.getElementById("") - Chamar o documento pelo seu elemento ID
-
 }
 
 Evento ao passar o mouse por cima do objeto ON {
@@ -46,3 +45,12 @@ Textos  {
     !quebrada - o NÃO antes da palavra é uma exclamação !.
 }
 
+Identificadores {
+        Podem começar com letra, $, ou _
+        Não pode começar com números
+        Épossível usar letras ou múmeros
+        É possível usar acentos e símbolos 
+        Não podem conter espaços 
+        Não podem ser palavras reservadas
+        Letras Maiúsculas e Minúsculas fazem diferenças
+}
