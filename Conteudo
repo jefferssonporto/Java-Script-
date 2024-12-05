@@ -13,6 +13,9 @@ Script padrão JS {
     </html>
 }
 
+// - Comentário para uma única linha
+/* */ - Comentário para mais de uma linha
+
 Mensagem de alerta: {
     alert('Olá,Mundo!');
     window.alert('Minha primeira mensagem');
