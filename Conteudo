@@ -84,3 +84,29 @@ Tipos de Dados {
     object - Array
     function
 }
+
+Aritméticos {
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5
+5 % 2 =  1  É Resto da divisão
+5 ** 2 = 25  cinco ao quadrado 
+n = n +5  / n+=5
+n = n -5  / n-=5
+n = n *5  / n*=5
+n = n /5  / n/=5
+n = n **5  / n**=5
+n = n %5  / n%=5
+
+Incremento:
+x = x +1  / x++
+x = x-1 / x-- 
+
+
+Ordem de Precedências:
+()
+**
+* / % 
++ - 
+}
