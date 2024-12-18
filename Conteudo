@@ -146,6 +146,7 @@ Seleções{
     Por Nome - getElementsByName() - Por nome tendo que usar o colchetes se for mais de uma.
     Por Classes - getElementsByClassName() - Por Classes
     Por Seletor - querySelector() / querySelectorAll() - por Seletor como no CSS. div#nomedaVAR para ID ou div.nomedaVAR para Classes.
+    
     Toda Classe é representada por um pontinho(.) / Toda ID é representada por uma hashtag (#)
 }
 
