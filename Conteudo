@@ -43,15 +43,11 @@ Mensagem de alerta: {
     window.prompt('Qual é o seu nome?'); caixa de pergunta com espaço para resposta, apenas para Strings
 }
 
-Mudar cor do fundo:{
-    document.body.style.background = 'black'; 
-}
 
 Escrever no documento {
     document.write("Mensagem"); - Escrever algo na tela
     document.write("Olá, hoje é dia " + Date()); - Com data e hora
-    document.getElementById("") - Chamar o documento pelo seu elemento ID
-}
+    
 
 Evento ao passar o mouse por cima do objeto ON {
     < onclick="nomedafunção()"/> = ao clicar no objeto dispara o evento.
@@ -63,6 +59,8 @@ Evento ao passar o mouse por cima do objeto ON {
 
 Textos  {
     !quebrada - o NÃO antes da palavra é uma exclamação !.
+    window.document.write(innerText) - puxar exatamente o texto sem html
+    window.document.write(innerHtml) - Puxa o texto com HTML
 }
 
 Identificadores {
@@ -141,3 +139,13 @@ Aritméticos {
     média > 7? 'APROVADO':'REPROVADO'
     'Reprovado'
 }
+
+Seleções{
+    Por Marca - getElementByTagName() - Chama o documento pela Tag, pode selecionar mais de um objeto do mesmo tipo, selecionando em ordem crescendo [0], [1], [2]...
+    Por ID -    getElementById() - Chama o documento pelo seu elemento ID
+    Por Nome - getElementsByName() - Por nome tendo que usar o colchetes se for mais de uma.
+    Por Classes - getElementsByClassName() - Por Classes
+    Por Seletor - querySelector() / querySelectorAll() - por Seletor como no CSS. div#nomedaVAR para ID ou div.nomedaVAR para Classes.
+    Toda Classe é representada por um pontinho(.) / Toda ID é representada por uma hashtag (#)
+}
+
