@@ -47,14 +47,18 @@ Mensagem de alerta: {
 Escrever no documento {
     document.write("Mensagem"); - Escrever algo na tela
     document.write("Olá, hoje é dia " + Date()); - Com data e hora
+}
     
 
 Evento ao passar o mouse por cima do objeto ON {
-    < onclick="nomedafunção()"/> = ao clicar no objeto dispara o evento.
-    < onmousemove="nomedafunção()"/>  = ao passar o mouse em cima do objeto dispara o evento.
-    <onmouseout="nomedafunção()"/> = evento de quando tirar o mouse de cima do objeto, dispara o evento
-    <onmouseover = sempre que passar o mouse na função dispara o evento
-    < oniput="" - usada para disparar o evento de uma variavel.
+  onclick="nomedafunção()"/> = ao clicar no objeto dispara o evento.
+  onmousemove="nomedafunção()"/>  = ao passar o mouse em cima do objeto dispara o evento.
+  onmouseout="nomedafunção()"/> = evento de quando tirar o mouse de cima do objeto, dispara o evento
+  onmouseover = />sempre que passar o mouse na função dispara o evento
+  oniput="" />- usada para disparar o evento de uma variavel.
+  mouseenter - quando o mouse entrar no DIV
+  variavel.addEventListener ('script da função', var da função) - add.EventListener substitui a chamada do script em HTML.
+
 }
 
 Textos  {
@@ -140,7 +144,7 @@ Aritméticos {
     'Reprovado'
 }
 
-Seleções{
+Seleções  {
     Por Marca - getElementByTagName() - Chama o documento pela Tag, pode selecionar mais de um objeto do mesmo tipo, selecionando em ordem crescendo [0], [1], [2]...
     Por ID -    getElementById() - Chama o documento pelo seu elemento ID
     Por Nome - getElementsByName() - Por nome tendo que usar o colchetes se for mais de uma.
@@ -150,3 +154,17 @@ Seleções{
     Toda Classe é representada por um pontinho(.) / Toda ID é representada por uma hashtag (#)
 }
 
+                 Árvore DOM
+                  Window
+      location    document    history
+                    html
+              head        body
+            meta/title    h1/p/p/div
+                            strong
+
+
+Funções {
+  function ação(parametros) {
+
+  }
+}
