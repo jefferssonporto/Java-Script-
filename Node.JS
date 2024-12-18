@@ -1,4 +1,4 @@
-crlt + L - Limpar a tela
+crlt + L Limpar a tela
 .exit - sair do programa
 typeof - mostra qual o tipo primitivo
 variavel.toFixed(2) - Declara a quantidade de casas do numero dentro do parenteses, no caso do exemplo seriam 2 casas a mais.

@@ -86,27 +86,58 @@ Tipos de Dados {
 }
 
 Aritméticos {
-5 + 2 = 7
-5 - 2 = 3
-5 * 2 = 10
-5 / 2 = 2.5
-5 % 2 =  1  É Resto da divisão
-5 ** 2 = 25  cinco ao quadrado 
-n = n +5  / n+=5
-n = n -5  / n-=5
-n = n *5  / n*=5
-n = n /5  / n/=5
-n = n **5  / n**=5
-n = n %5  / n%=5
+    5 + 2 = 7
+    5 - 2 = 3
+    5 * 2 = 10
+    5 / 2 = 2.5
+    5 % 2 =  1  É Resto da divisão
+    5 ** 2 = 25  cinco ao quadrado 
+    n = n +5  / n+=5
+    n = n -5  / n-=5
+    n = n *5  / n*=5
+    n = n /5  / n/=5
+    n = n **5  / n**=5
+    n = n %5  / n%=5
 
-Incremento:
-x = x +1  / x++
-x = x-1 / x-- 
+  Incremento:
+    x = x +1  / x++
+    x = x-1 / x-- 
 
 
-Ordem de Precedências:
-()
-**
-* / % 
-+ - 
+  Ordem de Precedências:
+    ()
+    **
+    * / % 
+    + - 
+
+  Relacionais:
+   5 > 2 true (Simbolo Maior)
+   7 < 4 False (Simbolo Menor)
+   8 >= 8 True (Simbolo Maior ou igual )
+   9 <= 7 False (Simbolo Menor ou igual)
+   5 == 5 True (Simbolo igual) 
+   4 != 4 False (Simbolo de não igual, diferente)
+  
+   Identidade:
+    5 == 5 True
+    5 == '5' True (String)
+    5 === '5' False (identico, 5 identico a 5)
+    5 === 5 True 
+
+  Lógicos:
+    ! Negação
+    && Conjunção ( E lógico, uma coisa e outra )
+    || Disjunção (  OU lógico, uma coisa ou outra)
+  
+  Precedências:
+    () ** /
+    > < >=
+    !
+    &&
+    ||
+  
+  Ternário:
+    var média = 5 
+    média > 7? 'APROVADO':'REPROVADO'
+    'Reprovado'
 }
