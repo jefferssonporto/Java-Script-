@@ -168,3 +168,12 @@ Funções {
 
   }
 }
+
+Condições {
+  if (condição) <!-- se --> { 
+    true
+  } else <!-- se não --> { 
+    false
+  }
+
+}
