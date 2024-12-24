@@ -1,4 +1,10 @@
-var vel = 60.5
-console.log(`A velocidade do seu carro é ${vel}km/h`)
-console.log(`Você ultrapassou a velocidade permitida)
-console.log('Dirija sempre com segurança')
+var idade = 66
+console.log(`Você tem ${idade} anos. `)
+if (idade <16 ) {
+    console.log('Não vota')
+} else if (idade <18  || idade > 65  ){
+        console.log('Voto opcional') 
+    } else {
+        console.log('voto obrigatório')
+    }
+    

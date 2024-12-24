@@ -7,9 +7,9 @@ Scripts / Atalhos {
     n1.toLocaleString('pt-BR', {Style: 'currency', currency: 'BRL'}) - O valor ficar em Real brasileiro, se trocar a ultima abreviação por USD fica em Dolar ou EUR fica em Euro.
 }
 
-Escrever na tela {
-    console.log('O console funcionou corretamente!') 
-    var vel = 60.5
-    console.log(`A velocidade do seu carro é ${vel}km/h`)
-}
+Escrever na tela - console.log(` ${} `)
+
+Mostrar a data/hora/dia atuais:
+var agora = new Date ()
+var hora = agora.getHours() / // agora.getDay .get...  variavel.GETopção
 
