@@ -44,12 +44,6 @@ Mensagem de alerta: {
 }
 
 
-Escrever no documento {
-    document.write("Mensagem"); - Escrever algo na tela
-    document.write("Olá, hoje é dia " + Date()); - Com data e hora
-}
-    
-
 Evento ao passar o mouse por cima do objeto ON {
   onclick="nomedafunção()"/> = ao clicar no objeto dispara o evento.
   onmousemove="nomedafunção()"/>  = ao passar o mouse em cima do objeto dispara o evento.
@@ -58,13 +52,17 @@ Evento ao passar o mouse por cima do objeto ON {
   oniput="" />- usada para disparar o evento de uma variavel.
   mouseenter - quando o mouse entrar no DIV
   variavel.addEventListener ('script da função', var da função) - add.EventListener substitui a chamada do script em HTML.
-
+  Onload - chamar a função JS dentro da estrutura HTML
+  document.body.style.background - Editar parte de CSS pelo JS
 }
 
 Textos  {
     !quebrada - o NÃO antes da palavra é uma exclamação !.
     window.document.write(innerText) - puxar exatamente o texto sem html
     window.document.write(innerHtml) - Puxa o texto com HTML
+    document.write("Mensagem"); - Escrever algo na tela
+    document.write("Olá, hoje é dia " + Date()); - Com data e hora
+}
 }
 
 Identificadores {
