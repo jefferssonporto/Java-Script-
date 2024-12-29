@@ -1,3 +1,4 @@
+/* Função em JS que troca as imagens da pasta */
 function carregar() {
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
