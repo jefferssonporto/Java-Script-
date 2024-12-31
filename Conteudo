@@ -210,4 +210,17 @@ Condições {
     break
   }
 
+  Estrutura de Repetição  com teste lógico no inicio 
+  While - Enquanto
+  function comerpizza() {
+    while (temFatia()) {
+      comer pizza
+    }
+  }
+
+  Condição DO. Estrutura de Repetição  com teste lógico no final.
+  do {
+    }while(condição)
+  
+
 }
