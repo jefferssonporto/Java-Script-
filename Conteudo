@@ -43,6 +43,15 @@ Mensagem de alerta: {
     window.prompt('Qual é o seu nome?'); caixa de pergunta com espaço para resposta, apenas para Strings
 }
 
+Outros Eventos:
+Anexar foto: 
+var img = document.createElement('img') 
+img.setAttribute('id', 'foto')
+img.setAttribute('src', 'nome da foto')
+
+document.body.style.background - Editar parte de CSS pelo JS
+
+
 
 Evento ao passar o mouse por cima do objeto ON {
   onclick="nomedafunção()"/> = ao clicar no objeto dispara o evento.
@@ -53,7 +62,6 @@ Evento ao passar o mouse por cima do objeto ON {
   mouseenter - quando o mouse entrar no DIV
   variavel.addEventListener ('script da função', var da função) - add.EventListener substitui a chamada do script em HTML.
   Onload - chamar a função JS dentro da estrutura HTML
-  document.body.style.background - Editar parte de CSS pelo JS
 }
 
 Textos  {
