@@ -18,6 +18,11 @@ Script padrão JS {
 <!-- --> - para comentários em html
 + - sinal de junção / concatenação
 
+OUTROS:
+Site para Emojis: unicode emoji list 
+EX: como vem: U+1F600	// Formatação em JS, só funciona entre crases - `\u{1F603}` 
+
+
 Operadores/Conversores string/number:
 
 Number.parseInt(n) - Converter String para numero inteiros
@@ -28,6 +33,7 @@ n.toString() - Converter números para String. O que eu quero converter.toString
 s.lenght - é um Atributo, mostra quantos caracteres a string tem
 s.toUpperCase() - tudo para letra 'MAISCÚLAS'
 s.toLowerCase() - tudo para letra  'minusculas'
+VAR / LET - variavel
 
 Formatando Strings:
 var s = 'JavaScript'
