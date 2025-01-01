@@ -1,22 +1,27 @@
+<!-- Uma Calculadora que conta somente as tabuadas de todos os numeros sendo positivos ou negativos -->
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="estilo.css" >
 </head>
 <body>
     <header> 
-        <h1> Título </h1>
+        <h1> Tabuada </h1>
     </header>
     <section> 
         <div> 
-            Testando...
+        Número: <input type="number" name="num" id="txtn">
+        <input type="button" value="Gerar Tabuada" onclick="tabuada()">
         </div>
-
+       
         <div> 
-            Olá!
+            <select name="tabuada"  id="seltab" size="10"> 
+              <option> Digite um Número acima</option>
+            </select>
         </div>
     </section>
     <footer> 
