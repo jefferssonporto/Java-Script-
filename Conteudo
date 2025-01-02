@@ -236,3 +236,15 @@ Condições {
     }
 
 }
+
+Variaveis Compostas {
+  Armazenam varios valores dentro de uma mesma estrutura. Sempre começa com 0. 
+  Array/Vetor/Variaveis composta é uma variavel que tem varios elementos, cada elemento é composto por seu valor e um chave de identificação.
+  Vaga a = [ 0, 1, 2] - cada numero dentro do colchete chame-se chaves ou indices. VAGA a é um Array Vetor
+  let num = [ 5,8,4] - uma variavel composta por 3 elementos, elementos 0,1,2 com valores 5,8,4.
+  num[3] = 6 - adicionar o numero 6 ao elemento 3
+  num.push(7) - Colocar um valor na  ultima posição de um Array, no caso o valor 7.
+  num.lenght - saber o comprimento. lenght é um Atributo
+  num.sort() - coloca todos os elementos em ordem crescente
+  num.indexOf(8) -  retorna a chave da onde esse valor se encontra, no caso a chave 1. Se ocorrer erro aparecerá -1, pro JS ele pesquisou e não encontrou o valor.
+  }
