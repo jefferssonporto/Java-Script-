@@ -58,6 +58,8 @@ img.setAttribute('src', 'nome da foto')
 document.body.style.background - Editar parte de CSS pelo JS
 variável.appendChild(elemento) - vai adiocionar o elemento que vc quiser abaixo.
 
+string.focus() - volta ao foco do navegador ao atualizar a pagina
+string.atributo - '' / num.value = '' - deixar o valor vazio da caixa para apagar ao atualizar a pagina
 
 
 Evento ao passar o mouse por cima do objeto ON {
@@ -248,3 +250,22 @@ Variaveis Compostas {
   num.sort() - coloca todos os elementos em ordem crescente
   num.indexOf(8) -  retorna a chave da onde esse valor se encontra, no caso a chave 1. Se ocorrer erro aparecerá -1, pro JS ele pesquisou e não encontrou o valor.
   }
+
+  Funções {
+    São ações executadas assim que são chamadas ou em decorrência de um evento.
+    Uma Função pode receber parâmetros e retornar a um resultado
+    function ação(parametro) {
+      return res //retorno
+    } 
+    ação (5) //chamada
+
+   EX: %Se n for divisivel por 2 é par se não impar
+   function  parimp(n) {
+    if (n%2 == 0) {
+    return 'par!' 
+  } else {
+    return 'impar!'
+   }
+}
+   console.log(parimp(4))
+  
