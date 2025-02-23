@@ -18,3 +18,19 @@ cd + nome - abrir o nome do arquivo
 
 yarn init -y* cria o  arquivo - package.json 
 Code . - abre o arquivo com VS
+
+
+Esqueleto básico do express
+
+const express = require("express");
+
+const server = express();
+
+server.listen(3000); // Porta que eu quero trabalhar
+// Normalmente utiliza-se as portas 3000 / 5000 / 8000 / 8080
+
+
+Variavel REQ - Requisição
+Variavel RES - Resposta 
+res.send() - resposta 
+
