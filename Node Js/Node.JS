@@ -13,3 +13,8 @@ Mostrar a data/hora/dia atuais:
 var agora = new Date ()
 var hora = agora.getHours() / // agora.getDay .get...  variavel.GETopção
 
+mkdir - criar o nome
+cd + nome - abrir o nome do arquivo
+
+yarn init -y* cria o  arquivo - package.json 
+Code . - abre o arquivo com VS
