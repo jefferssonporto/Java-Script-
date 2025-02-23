@@ -1,0 +1,20 @@
+
+/* yarn init -y*/
+/* code .*/
+{
+  "name": "Jeferson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
+
+/* yarn add express */
+{
+  "name": "Jeferson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
